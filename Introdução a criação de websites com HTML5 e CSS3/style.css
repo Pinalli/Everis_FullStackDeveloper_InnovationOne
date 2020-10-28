@@ -1,18 +1,38 @@
+/* 
+  .header  = class
+  #header =   id
+  o id só pode ser usado uma vez na página
 
+  */
 
 .photo{
-    border: 1px solid #505050;
-    border-radius: 50px;
-
+    border: 2px solid #505050;
+    border-radius: 120px;
+   
 }
 
 body{
     background:#FFFAFA;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 
 #title, .subtitle, .post_title {
     color: 	#363636;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+/* muda a aparencia dos links */
+a{
+    text-decoration: line-through; /* linha ao centro*/
+    color: #505050;
 }
 
 .post_title {
@@ -34,8 +54,20 @@ body{
 .post_content{
     margin:0;
     margin-bottom: 15px;;
+    text-transform:capitalize ;
+    text-align: justify;
 }
 
 .post_image{
     margin-bottom: 15px;;
+    width: 100%;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a{
+    text-decoration:none;
 }
